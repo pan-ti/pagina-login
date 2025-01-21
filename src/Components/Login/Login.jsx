@@ -17,7 +17,7 @@ const Login = () => {
     <div className="container">
       <form onSubmit={handleSubmit}>
         <h1>Acesse o Sistema</h1>
-        <div>
+        <div className="input-field">
           <input
             type="email"
             placeholder="Email"
@@ -25,7 +25,7 @@ const Login = () => {
           />
           <FaUser className="icon" />
         </div>
-        <div>
+        <div className="input-field">
           <input
             type="password"
             placeholder="Senha"
@@ -41,7 +41,7 @@ const Login = () => {
           <a href="#">Esqueci minha senha</a>
         </div>
 
-        <button type="submit">Entrar</button>
+        <button>Entrar</button>
 
         <div className="signup-link">
           <p>
